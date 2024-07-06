@@ -1,0 +1,318 @@
+# Copyright (C) 2024 Michael Campos
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: List Multiple Products 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/list-multiple-"
+"products\n"
+"POT-Creation-Date: 2024-06-27T15:31:32+00:00\n"
+"PO-Revision-Date: 2024-06-27 12:45-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Domain: list-multiple-products\n"
+
+#. Plugin Name of the plugin
+#: admin/class-lmp-admin.php:17 admin/class-lmp-admin.php:18
+msgid "List Multiple Products"
+msgstr "Listar vários produtos"
+
+#. Plugin URI of the plugin
+msgid "https://example.com/list-multiple-products"
+msgstr "https://example.com/list-multiple-products"
+
+#. Description of the plugin
+msgid ""
+"Um plugin que permite listar e selecionar múltiplos produtos em uma página "
+"com shortcode."
+msgstr ""
+"Um plugin que permite listar e selecionar vários produtos em uma página com "
+"shortcode."
+
+#. Author of the plugin
+msgid "Michael Campos"
+msgstr "Michael Campos"
+
+#. Author URI of the plugin
+msgid "https://example.com"
+msgstr "https://example.com"
+
+#: admin/class-lmp-admin.php:27 admin/class-lmp-admin.php:28
+#: admin/class-lmp-admin.php:60
+msgid "All Lists"
+msgstr "Todas as listas"
+
+#: admin/class-lmp-admin.php:36 admin/class-lmp-admin.php:37
+#: admin/class-lmp-admin.php:61 admin/class-lmp-admin.php:126
+msgid "Add New List"
+msgstr "Adicionar Nova Lista"
+
+#: admin/class-lmp-admin.php:45 admin/class-lmp-admin.php:46
+#: admin/class-lmp-admin.php:437
+msgid "Settings"
+msgstr "Configurações"
+
+#: admin/class-lmp-admin.php:65
+msgid "All Product Tables"
+msgstr "Todas as tabelas de produtos"
+
+#: admin/class-lmp-admin.php:77 admin/class-lmp-admin.php:276
+msgid "ID"
+msgstr "ID"
+
+#: admin/class-lmp-admin.php:78 admin/class-lmp-admin.php:274
+msgid "Title"
+msgstr "Titulo"
+
+#: admin/class-lmp-admin.php:79 admin/class-lmp-admin.php:154
+msgid "Description"
+msgstr "Descrição"
+
+#: admin/class-lmp-admin.php:80
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/class-lmp-admin.php:102
+msgid "No shortcodes found."
+msgstr "Shortcode não encontrado."
+
+#: admin/class-lmp-admin.php:104
+msgid "Create a product table shortcode"
+msgstr ""
+
+#: admin/class-lmp-admin.php:104
+msgid "here"
+msgstr "aqui"
+
+#: admin/class-lmp-admin.php:130
+msgid "Add New Product Table"
+msgstr ""
+
+#: admin/class-lmp-admin.php:136
+msgid "Table Title"
+msgstr ""
+
+#: admin/class-lmp-admin.php:137 admin/class-lmp-admin.php:151
+msgid ""
+"For internal use only, it helps admins identify the table and will not be "
+"shown to customers."
+msgstr ""
+
+#: admin/class-lmp-admin.php:140
+msgid "Product table title"
+msgstr ""
+
+#: admin/class-lmp-admin.php:150
+msgid "Table Description"
+msgstr ""
+
+#: admin/class-lmp-admin.php:164
+msgid "Add Product"
+msgstr ""
+
+#: admin/class-lmp-admin.php:165
+msgid ""
+"Select specific products to display if you want to add only certain items in "
+"the product table."
+msgstr ""
+
+#: admin/class-lmp-admin.php:185
+msgid "Selected Products"
+msgstr ""
+
+#: admin/class-lmp-admin.php:186
+msgid ""
+"Choose which products should be checked by default when the product table "
+"initially loads."
+msgstr ""
+
+#: admin/class-lmp-admin.php:205 includes/class-lmp-shortcode.php:85
+msgid "Categories"
+msgstr ""
+
+#: admin/class-lmp-admin.php:206
+msgid "Specify the product categories to be included in the product table."
+msgstr ""
+
+#: admin/class-lmp-admin.php:226
+msgid "Products Per Page"
+msgstr ""
+
+#: admin/class-lmp-admin.php:227
+msgid ""
+"Set a limit on the number of products to display per page. This option is "
+"functional only when the Pagination setting is Show. Maximum page limit is "
+"100."
+msgstr ""
+
+#: admin/class-lmp-admin.php:240
+msgid "Pagination"
+msgstr ""
+
+#: admin/class-lmp-admin.php:241
+msgid ""
+"If Hide is selected, all products will be shown on a single page without "
+"pagination."
+msgstr ""
+
+#: admin/class-lmp-admin.php:250 admin/class-lmp-admin.php:315
+#: admin/class-lmp-admin.php:343
+msgid "Show"
+msgstr ""
+
+#: admin/class-lmp-admin.php:254 admin/class-lmp-admin.php:319
+#: admin/class-lmp-admin.php:347
+msgid "Hide"
+msgstr ""
+
+#: admin/class-lmp-admin.php:268
+msgid "Order By"
+msgstr ""
+
+#: admin/class-lmp-admin.php:269
+msgid ""
+"Determine the attribute (like price, name, etc.) upon which the product "
+"sorting should be based."
+msgstr ""
+
+#: admin/class-lmp-admin.php:273
+msgid "Date"
+msgstr ""
+
+#: admin/class-lmp-admin.php:275 includes/class-lmp-shortcode.php:87
+msgid "Price"
+msgstr ""
+
+#: admin/class-lmp-admin.php:287
+msgid "Order"
+msgstr ""
+
+#: admin/class-lmp-admin.php:288
+msgid ""
+"Define the display sequence as ascending, descending, or custom. The custom "
+"setting is functional only when you have pre-selected specific products in "
+"the Add Product section."
+msgstr ""
+
+#: admin/class-lmp-admin.php:292
+msgid "ASC"
+msgstr ""
+
+#: admin/class-lmp-admin.php:293
+msgid "DESC"
+msgstr ""
+
+#: admin/class-lmp-admin.php:294
+msgid "Custom"
+msgstr ""
+
+#: admin/class-lmp-admin.php:305
+msgid "Product Description"
+msgstr ""
+
+#: admin/class-lmp-admin.php:306
+msgid "This is the individual product description."
+msgstr ""
+
+#: admin/class-lmp-admin.php:333
+msgid "Product Link"
+msgstr ""
+
+#: admin/class-lmp-admin.php:334
+msgid ""
+"Choose whether or not product titles should link to their individual product "
+"pages."
+msgstr ""
+
+#: admin/class-lmp-admin.php:361
+msgid "Product Type"
+msgstr ""
+
+#: admin/class-lmp-admin.php:362
+msgid "Select the types of products you wish to include in the product table."
+msgstr ""
+
+#: admin/class-lmp-admin.php:366
+msgid "All"
+msgstr ""
+
+#: admin/class-lmp-admin.php:367
+msgid "Simple"
+msgstr ""
+
+#: admin/class-lmp-admin.php:368
+msgid "Variable"
+msgstr ""
+
+#: admin/class-lmp-admin.php:376 includes/class-lmp-shortcode.php:91
+#: includes/class-lmp-shortcode.php:131
+msgid "Reset"
+msgstr ""
+
+#: admin/class-lmp-admin.php:384
+msgid "Save List"
+msgstr ""
+
+#: admin/class-lmp-admin.php:445
+msgid "Option Name"
+msgstr ""
+
+#: includes/class-lmp-shortcode.php:39
+msgid "List not found."
+msgstr ""
+
+#: includes/class-lmp-shortcode.php:83
+msgid "Image"
+msgstr ""
+
+#: includes/class-lmp-shortcode.php:84
+msgid "Product"
+msgstr ""
+
+#: includes/class-lmp-shortcode.php:86
+msgid "Variations"
+msgstr ""
+
+#: includes/class-lmp-shortcode.php:88
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-lmp-shortcode.php:89
+msgid "Total"
+msgstr ""
+
+#: includes/class-lmp-shortcode.php:90 includes/class-lmp-shortcode.php:130
+msgid "Add to Cart"
+msgstr "Adicionar"
+
+#: includes/class-lmp-shortcode.php:135
+msgid "No products found."
+msgstr "Nenhum produto encontrado."
+
+#: includes/class-lmp-shortcode.php:141
+msgid "Total:"
+msgstr ""
+
+#: includes/class-lmp-shortcode.php:143
+msgid "Add All to Cart"
+msgstr "Adicionar todos"
+
+#: includes/class-lmp-shortcode.php:144
+msgid "Reset All"
+msgstr "Resetar todos"
+
+#: list-multiple-products.php:57
+msgid "Product added to cart."
+msgstr "Produto adicionado no carrinho."
+
+#: list-multiple-products.php:59
+msgid "Failed to add product to cart."
+msgstr ""
+
+#: list-multiple-products.php:62
+msgid "Invalid product or quantity."
+msgstr ""

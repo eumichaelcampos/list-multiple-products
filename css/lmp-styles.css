@@ -1,0 +1,48 @@
+.lmp-product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lmp-product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.lmp-product h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.lmp-product p {
+    margin-bottom: 15px;
+}
+
+.lmp-add-to-cart {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.lmp-add-to-cart:hover {
+    background-color: #005177;
+}
+input.lmp-quantity {
+    width: 65px;
+}
+.list-multiple-products-table a {
+    font-weight: 900;
+    font-size: 18px;
+}
+.list-multiple-products-table a:hover{
+    color:#EAA33E;
+}
+button.button.lmp-add-to-cart {
+    background: #19374d;
+    color: #eaa33e;
+}
